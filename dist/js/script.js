@@ -28,3 +28,24 @@ hamburger.addEventListener("click", function () {
 });
 
 // setelah hamburger
+
+//Klik diluar hamburgernya
+window.addEventListener("click", function (e) {
+  if (e.target != hamburger && e.target != navMenu1) {
+    hamburger.classList.remove("hamburger-active");
+    navMenu1.classList.add("hidden");
+  }
+});
+
+// dark mode toggle
+
+const darkToggle = document.querySelector("#dark-toggle");
+const html = document.querySelector("html");
+
+darkToggle.addEventListener("click", function () {
+  if (darkToggle.checked) {
+    html.classList.add("dark");
+  } else {
+    html.classList.remove("dark");
+  }
+});
