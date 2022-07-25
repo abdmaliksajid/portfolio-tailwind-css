@@ -624,16 +624,12 @@ video {
   top: 100%;
 }
 
-.bottom-20 {
-  bottom: 5rem;
+.bottom-4 {
+  bottom: 1rem;
 }
 
 .left-1\/2 {
   left: 50%;
-}
-
-.bottom-4 {
-  bottom: 1rem;
 }
 
 .z-10 {
