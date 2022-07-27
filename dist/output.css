@@ -719,6 +719,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -751,6 +755,10 @@ video {
   height: 2.25rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -761,6 +769,10 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-5 {
@@ -1340,10 +1352,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:top-0 {
-    top: 0px;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
